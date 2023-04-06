@@ -1,0 +1,232 @@
+body {
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  /*background-color: #282A3A;*/
+  background-color: rgb(54, 55, 52);
+  text-align: center;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgb(87, 88, 83);
+  overflow: hidden;
+  margin: 25px auto 0;
+}
+
+h4 {
+    padding: 10px 0;
+    color: #fff;
+}
+
+.social-button-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.btn-outline-light {
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    margin: 10px 3px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-anchor-container {
+    padding: 25px 20px 25px 75px;
+    font-size: 0.9rem;
+    font-family: "Montserrat";
+    text-align: left;
+}
+
+.nav-link {
+    padding: 7px 0;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #30AADD;
+}
+
+.btn {
+    border-color: #7F8487;
+}
+
+.sections {
+    position: relative;
+    left: 25%;
+    width: 75%;
+    background-color: rgb(38, 38, 42);
+    color: #fff;
+}
+
+#home {
+    background-image: url('../images/wheel.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    padding: 25% 5%;
+}
+
+.notice {
+    color: #B2B2B2;
+    font-size: 0.8rem;
+}
+
+.social-contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+
+#footer {
+    position: relative;
+    font-size: 0.8rem;
+    left: 25%;
+    width: 75%;
+    background-color: #282A3A;
+    color: #B2B2B2;
+    margin-bottom: 0;
+    padding-left: 20%;
+    padding-bottom: 20px;
+    background-color: rgb(38, 38, 42);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.project-type {
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: rgb(87, 88, 83);
+    margin: 10px 0;
+    margin-color: #282A3A;
+}
+
+.collapse {
+    background-color: rgb(38, 38, 42);
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+}
+
+.square-image {
+    position: relative;
+    width: 70%;
+    left: 15%;
+}
+
+
+.attr {
+    font-size: 0.8rem;
+    color:#B2B2B2;
+}
+
+.project-summary {
+   color:#B2B2B2;
+}
+
+.details-button-container {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+}
+
+#contact {
+    padding-bottom: 14%;
+}
+
+/*  media queries */
+
+@media (max-width: 950px) {
+    .navigation {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(38, 38, 42);
+        text-align: center;
+    }
+
+    .nav-anchor-container {
+        padding-left: 35%;
+        padding-right: 35%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .content {
+        padding: 50% 5%;
+    }
+
+    .sections {
+        position: relative;
+        left: 0;
+        width: 100%;
+        background-color: rgb(38, 38, 42);
+        color: #fff;
+    }
+
+    .skill {
+        vertical-align: top;
+    }
+
+    .social-contact-buttons {
+        width: 37px;
+        height: 37px;
+        padding: 7% 0;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    #footer {
+        position: relative;
+        left: 0;
+        width: 100%;
+        background-color: rgb(38, 38, 42);
+        color: #B2B2B2;
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+
