@@ -173,6 +173,11 @@ html {
 /*  media queries */
 
 @media (max-width: 950px) {
+
+    body{
+        font-size: 0.8rem;
+    }
+
     .navigation {
         position: relative;
         width: 100%;
