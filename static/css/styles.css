@@ -9,6 +9,7 @@ body {
 }
 
 .navigation {
+  font-weight: 400;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -191,6 +192,10 @@ html {
         padding-right: 35%;
         margin-left: 2%;
         margin-right: 2%;
+    }
+
+    .notice {
+        font-size: 0.8rem;
     }
 
     .content {
