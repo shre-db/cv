@@ -17,7 +17,7 @@ body {
   width: 25%;
   height: 100%;
   /*background-color: #282A3A;*/
-  background-color: rgb(54, 55, 52);
+  background-color: #FFFFFF;
   text-align: center;
 }
 
@@ -25,15 +25,18 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 5px solid rgb(87, 88, 83);
+  /*border: 5px solid #606C5D;*/
+  border: 5px solid #586E72;
   overflow: hidden;
-  margin: 25px auto 0;
+  margin: 50px auto 0;
 }
 
+/*
 h4 {
     padding: 10px 0;
-    color: #fff;
+    color: #000;
 }
+*/
 
 .social-button-container {
   display: flex;
@@ -42,6 +45,8 @@ h4 {
   justify-content: center;
   padding-left: 14px;
   padding-right: 14px;
+  color: #000;
+  padding-top: 10%;
 }
 
 .btn-outline-light {
@@ -54,6 +59,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #000;
 }
 
 .nav-anchor-container {
@@ -65,38 +71,42 @@ h4 {
 
 .nav-link {
     padding: 7px 0;
-    color: #fff;
+    color: #000;
 }
 
 .nav-link:hover {
-    color: #30AADD;
+    color: #586E72;
 }
 
 .btn {
     border-color: #7F8487;
 }
 
+.btn:hover {
+    border-color: #000;
+}
+
 .sections {
     position: relative;
     left: 25%;
     width: 75%;
-    background-color: rgb(38, 38, 42);
-    color: #fff;
+    background-color: #FFFFFF;
+    color: #000;
 }
 
 #home {
-    background-image: url('../images/wheel.png');
+    background-image: url('../images/1186.jpg');
     background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .content {
-    padding: 25% 5%;
+    padding: 29% 5%;
 }
 
 .notice {
-    color: #B2B2B2;
+    color: #000;
     font-size: 0.8rem;
 }
 
@@ -112,12 +122,12 @@ h4 {
     font-size: 0.8rem;
     left: 25%;
     width: 75%;
-    background-color: #282A3A;
-    color: #B2B2B2;
+    color: #7D7463;
     margin-bottom: 0;
-    padding-left: 20%;
+    padding-left: 5%;
     padding-bottom: 20px;
-    background-color: rgb(38, 38, 42);
+    background-color: #FFFFFF;
+    justify-content: left;
 }
 
 html {
@@ -129,13 +139,14 @@ html {
 }
 
 .card {
-    background-color: rgb(87, 88, 83);
+    background-color: #80A3A2;
     margin: 10px 0;
-    margin-color: #282A3A;
+    margin-color: #839B97;
+    color: #000;
 }
 
 .collapse {
-    background-color: rgb(38, 38, 42);
+    background-color: #FFFFFF;
 }
 
 .cover {
@@ -152,11 +163,11 @@ html {
 
 .attr {
     font-size: 0.8rem;
-    color:#B2B2B2;
+    color:#000;
 }
 
 .project-summary {
-   color:#B2B2B2;
+   color:#000;
 }
 
 .details-button-container {
@@ -183,7 +194,7 @@ html {
         position: relative;
         width: 100%;
         height: 100%;
-        background-color: rgb(38, 38, 42);
+        background-color: #FFFFFF;
         text-align: center;
     }
 
@@ -206,8 +217,8 @@ html {
         position: relative;
         left: 0;
         width: 100%;
-        background-color: rgb(38, 38, 42);
-        color: #fff;
+        background-color: #FFFFFF;
+        color: #000;
     }
 
     .skill {
@@ -229,10 +240,11 @@ html {
         position: relative;
         left: 0;
         width: 100%;
-        background-color: rgb(38, 38, 42);
+        background-color: #FFFFFF;
         color: #B2B2B2;
         margin-bottom: 0;
-        padding-left: 0;
+        padding-left: 12%;
+        padding-right: 12%;
         padding-bottom: 20px;
         text-align: center;
     }
