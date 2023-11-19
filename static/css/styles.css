@@ -110,6 +110,10 @@ h4 {
     font-size: 0.8rem;
 }
 
+.description-heading {
+    color: #7D7463;
+}
+
 .social-contact-container {
     display: flex;
     flex-wrap: wrap;
